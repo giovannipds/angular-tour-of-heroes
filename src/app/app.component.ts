@@ -37,5 +37,5 @@ export class AppComponent {
     id: 1,
     name: 'Windstorm'
   };
-  heroes = HEROES;
+  heroes: Hero[] = HEROES;
 }
